@@ -1,3 +1,4 @@
+
 .david-bowie-tribute-summary-photo img {
     width: 500px;
     height: 700px;
@@ -34,3 +35,28 @@ article {
         background-image: url("");
         background-size: 10px 10px;
     }
+
+li {
+    list-style-type: none;
+}
+#newsfeedHead {
+    display: flex;
+    justify-content: center;
+    border: 3px solid black;
+}
+
+.newsfeed {
+    display: flex;
+    justify-content: flex-start;
+    flex-basis: 25%;
+    padding: 25px;
+    font-size: 20px;
+    
+}
+
+.newsImg {
+    width: 200px;
+    height: 200px;
+    padding: 25px;
+
+}
