@@ -1,3 +1,24 @@
 li {
     list-style-type: none;
 }
+#newsfeedHead {
+    display: flex;
+    justify-content: center;
+    border: 3px solid black;
+}
+
+.newsfeed {
+    display: flex;
+    justify-content: flex-start;
+    flex-basis: 25%;
+    padding: 25px;
+    font-size: 20px;
+    
+}
+
+.newsImg {
+    width: 200px;
+    height: 200px;
+    padding: 25px;
+
+}
