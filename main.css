@@ -1,7 +1,17 @@
 
+body {
+    background-image: url("https://rainbowfilter.io/images/filters/david-bowie/banner.png?v=2");
+    background-size: 900px;
+    background-repeat: no-repeat;
+    
+}
+
 .david-bowie-tribute-summary-photo img {
     width: 500px;
     height: 700px;
+}
+a {
+    text-decoration: none;
 }
 
 article {
@@ -15,9 +25,15 @@ article {
     flex-direction: row;
 }
 
-.info {
+.summaryinfo {
     flex-direction: column;
     margin: 20px;
+    font-weight: bold;
+    font-size: 16px;
+    background-color: white;
+    opacity: 20%;
+    padding-left: 20px;
+
     }
 
     .summaryp, .summaryul {
@@ -27,13 +43,15 @@ article {
     .summaryul {
         list-style-type: none;
         padding: 0px;
+        
     }
 
     .summaryh1 {
         font-size: 35px;
         border-bottom: 3px solid red;
-        background-image: url("");
-        background-size: 10px 10px;
+        margin-top: 40px;
+        padding-top: 20px;
+        
     }
 
 li {
