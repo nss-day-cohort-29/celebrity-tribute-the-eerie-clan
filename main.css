@@ -1,3 +1,41 @@
+
+.david-bowie-tribute-summary-photo img {
+    width: 500px;
+    height: 700px;
+}
+
+article {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+}
+
+.david-bowie-tribute-summary-info {
+    display: flex;
+    flex-direction: row;
+}
+
+.info {
+    flex-direction: column;
+    margin: 20px;
+    }
+
+    .summaryp, .summaryul {
+        align-self : center;
+    }
+
+    .summaryul {
+        list-style-type: none;
+        padding: 0px;
+    }
+
+    .summaryh1 {
+        font-size: 35px;
+        border-bottom: 3px solid red;
+        background-image: url("");
+        background-size: 10px 10px;
+    }
+
 li {
     list-style-type: none;
 }
