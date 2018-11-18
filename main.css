@@ -11,13 +11,14 @@
     justify-content: space-around;
     align-items: center;
     font-size: 40px;
+    background-color: #4cb69f;
     
 }
 
 a {
     text-decoration: none;
     color: black;
-    font-family: 'Hammersmith One', sans-serif;
+    
     
 }
 
@@ -97,30 +98,33 @@ li {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    background-color: red;
+    background-color: #3d3d3f;
     padding: 1em;
+    
      
 }
 
 .newsfeedContainer {
     display: flex;
     flex-direction: column;
-    background-color: aqua;
+    background-color: #f9f8fd;
+    
 }
 
 #newsfeedHead {
     display: flex;
     justify-content: center;
     font-size: 40px;
-    background-color: blue;
+    background-color:  #f6f5f3x;
     border: 5px solid black;
     margin: 5px;
+    font-family: 'Hammersmith One', sans-serif;
 }
 
 .eventContainer {
     display: flex;
     flex-direction: column;
-    background-color: burlywood;
+    background-color:  #a39274;
 }
 
 
@@ -129,7 +133,7 @@ li {
     display: flex;
     justify-content: center;
     font-size: 40px;
-    background-color: purple;
+    background-color: #252523;
     border: 5px solid black;
     margin: 5px;
 }
@@ -162,6 +166,7 @@ li {
     text-decoration: none;
     font-size: 20px;
     color: #FFFFFF;
+    font-family: 'Hammersmith One', sans-serif;
     
 } 
 
