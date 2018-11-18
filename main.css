@@ -226,16 +226,17 @@ i {
     display: block;
     font-size: 50px;
     color: #101010;
+    
 }
 
 .rating label:after {
     content: '\f005';
     font-family: fontAwesome;
-    position: relative;
+    position: absolute;
     display: block;
     font-size: 50px;
     color: #1f9cff;
-    top: 0;
+    
     opacity: 0;
     transition: .5s;
     text-shadow: 0 2px 5px rgba(0,0,0,.5);
