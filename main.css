@@ -6,13 +6,27 @@
 }*/ 
 
 .nav {
+
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    font-size: 40px;
-    background-color: #4cb69f;
+    font-size: 35px;
+    background-image: linear-gradient(to bottom top, #e0e0e0, #9e9e9e); 
+    border-radius: 12px; 
+    margin-bottom: 0px;
+    padding-bottom: 0px;
     
+}
+
+.nav > li:hover {
+
+    /* background-color: rgb(248, 225, 160); */
+    background-image: linear-gradient(to top, rgb(108, 128, 108) , rgb(235, 253, 235) );
+    border-radius: 12px;
+    box-shadow: 5px 10px #888888;
+    
+
 }
 
 a {
@@ -27,6 +41,7 @@ a {
     font-size: 55px;
     border: 5px double red;
     padding: 10px;
+}
 
 .landingBody {
     /* background-image: url("https://rainbowfilter.io/images/filters/david-bowie/banner.png?v=2");
@@ -40,7 +55,7 @@ a {
 }
 
 /* I THOUGHT A ROW LOOK FOR THE NAVBARS LOOKED BETTER. AGAIN STYLE CHOICE WE CAN CHANGE IF NECESSARY. -JD */
-.navBars{
+/* .navBars{
 
     display:flex;
     flex-flow: row;
@@ -49,7 +64,7 @@ a {
     font-weight: bold;
 
 
-}
+} */
 
 .landingpage {
         display: flex;
@@ -62,9 +77,10 @@ a {
         padding-left: 100px;
         margin-left: 50px;
         background-origin: content-box;
-       
+        margin-top: 10px;
+        margin-bottom: 10px
+        
 }
-
 
 .david-bowie-tribute-summary-photo img {
     width: 500px;
@@ -167,9 +183,10 @@ font-size: 20px;
 width: 200px;
 height: 200px;
 padding: 25px;
-
 }
 
+.newsText
+{
     display: flex;
     justify-content: center;
     font-size: 40px;
@@ -207,7 +224,6 @@ padding: 25px;
     padding: 5px;
     margin: 10px;
     
-    
 }
 
 .newsImg {
@@ -217,7 +233,7 @@ padding: 25px;
     height: 60%;
     padding: 2px;
     margin: 20px;
-
+}
 
 
 #personal__header--H1 {
@@ -252,10 +268,6 @@ padding: 25px;
 } 
 
 
-
-
-
-
 .personal__info ul {
     display: flex;
     flex-direction: column;
@@ -281,24 +293,18 @@ padding: 25px;
     }
 
 
-}
-/* JD CSS FOR CAREER PAGE CUSTOMIZED TO A FAULT IN SOME AREAS. BEM SYNTAX FOR CLASSES THAT I USED. - JD */
+
 
 i {
     font-size: 40px;
     margin: 5px;
 }
 
-
-
 .rating {
    
-    
     display: flex;
     justify-content: center;
     flex-direction: row-reverse;
-    
-    
     
 }
 .rating input {
@@ -343,6 +349,8 @@ i {
     opacity: 1;
 }
 
+/* JD CSS FOR CAREER PAGE CUSTOMIZED TO A FAULT IN SOME AREAS. BEM SYNTAX FOR CLASSES THAT I USED. - JD */
+
 .bowie_Image_Container {
 
     display: flex;
@@ -370,8 +378,6 @@ i {
     width: 30%;
     border-radius: 12px;
 }
-
-
 
 
 /* STYLED MY MAIN HEADER I WANTED TO KEEP IN LINE WITH ASIA'S HEADER STYLE SO I USED HER HEADER AS STYLE GUIDE. JD */
