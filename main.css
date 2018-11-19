@@ -6,8 +6,9 @@
     justify-content: space-around;
     align-items: center;
     font-size: 40px;
-    background-color: #4cb69f;
+    background-color: white;
     text-decoration: none;
+    margin-bottom: 0px;
     
 }
 
@@ -29,21 +30,22 @@ a {
     padding: 10px;
 }
 
-.landingBody {
-     background-image: linear-gradient(to bottom right, pink ,purple );
-}
+
 
 .landingpage {
         display: flex;
         justify-content: center;
-        background-image: url("https://rainbowfilter.io/images/filters/david-bowie/banner.png?v=2") ;
-        background-size: 800px;
+        background-image: url("https://i.pinimg.com/564x/12/aa/d1/12aad1be72aecd475af996011258cfba.jpg");
+        background-size: 750px;
         background-repeat: no-repeat; 
-        width: 1000px;
-        height: 1000px;
+        width: 700px;
+        height: 800px;
         padding-left: 100px;
         margin-left: 50px;
         background-origin: content-box;
+        position: relati
+       
+
        
 }
 
