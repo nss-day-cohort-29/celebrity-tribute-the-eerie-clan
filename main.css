@@ -225,6 +225,7 @@ i {
     position: relative;
     display: block;
     font-size: 50px;
+    opacity: 0;
     color: #101010;
     
 }
