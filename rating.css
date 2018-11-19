@@ -1,0 +1,155 @@
+/* BEGIN NEW STAR RATING */
+.rating {
+   
+    
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    
+}
+
+.rating input {
+    display: none;
+}
+
+.rating label {
+    display: block;
+    cursor: pointer;
+    width: 20px;
+    
+}
+
+/* star graphic controller */
+.rating label:before {
+    content: '\f0e7';
+    font-family: fontAwesome;
+    position: absolute;
+    display: block;
+    font-size: 30px;
+    
+    color: #101010;
+    
+}
+
+.rating label:after {
+    content: '\f0e7';
+    font-family: fontAwesome;
+    position: relative;
+    display: block;
+    font-size: 30px;
+    color: #ff6666;
+    
+    opacity: 0;
+    transition: .5s;
+    text-shadow: 0 2px 5px rgba(0,0,0,.5);
+}
+
+.rating label:hover:after,
+.rating label:hover ~ label:after,
+.rating input:checked ~ label:after {
+    opacity: 1;
+}
+
+/* BEGIN STAR RATING2 */
+.rating2 {
+   
+    
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    
+}
+
+.rating2 input {
+    display: none;
+}
+
+.rating2 label {
+    display: block;
+    cursor: pointer;
+    width: 20px;
+    
+}
+
+/* star graphic controller */
+.rating2 label:before {
+    content: '\f0e7';
+    font-family: fontAwesome;
+    position: absolute;
+    display: block;
+    font-size: 30px;
+    
+    color: #101010;
+    
+}
+
+.rating2 label:after {
+    content: '\f0e7';
+    font-family: fontAwesome;
+    position: relative;
+    display: block;
+    font-size: 30px;
+    color: #ff6666;
+    
+    opacity: 0;
+    transition: .5s;
+    text-shadow: 0 2px 5px rgba(0,0,0,.5);
+}
+
+.rating2 label:hover:after,
+.rating2 label:hover ~ label:after,
+.rating2 input:checked ~ label:after {
+    opacity: 1;
+}
+
+/* BEGIN  STAR RATING3 */
+.rating3 {
+   
+    
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    
+}
+
+.rating3 input {
+    display: none;
+}
+
+.rating3 label {
+    display: block;
+    cursor: pointer;
+    width: 20px;
+    
+}
+
+/* star graphic controller */
+.rating3 label:before {
+    content: '\f0e7';
+    font-family: fontAwesome;
+    position: absolute;
+    display: block;
+    font-size: 30px;
+    
+    color: #101010;
+    
+}
+
+.rating3 label:after {
+    content: '\f0e7';
+    font-family: fontAwesome;
+    position: relative;
+    display: block;
+    font-size: 30px;
+    color: #ff6666;
+    
+    opacity: 0;
+    transition: .5s;
+    text-shadow: 0 2px 5px rgba(0,0,0,.5);
+}
+
+.rating3 label:hover:after,
+.rating3 label:hover ~ label:after,
+.rating3 input:checked ~ label:after {
+    opacity: 1;
+}
