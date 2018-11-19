@@ -25,8 +25,9 @@
 
 
     font-size: 40px;
-    background-color: #4cb69f;
+    background-color: white;
     text-decoration: none;
+    margin-bottom: 0px;
     
 }
 
@@ -49,53 +50,27 @@ a {
     padding: 10px;
 }
 
+
     
 
 
-    /* body{
-    background-image: url("https://rainbowfilter.io/images/filters/david-bowie/banner.png?v=2");
-    background-size: 900px;
-    background-repeat: no-repeat;
-    }
-     */
-
-
-.landingBody {
-    /* background-image: url("https://rainbowfilter.io/images/filters/david-bowie/banner.png?v=2");
-    background-size: 900px;
-    background-repeat: no-repeat;
-     */
-
-
-     /* ADDED BG COLOR USED GRADIENT WE CAN REMOVE IF YOU WANT. - JD */
-     background-image: linear-gradient(to bottom right, pink ,purple );
-}
-
-/* I THOUGHT A ROW LOOK FOR THE NAVBARS LOOKED BETTER. AGAIN STYLE CHOICE WE CAN CHANGE IF NECESSARY. -JD */
-
-/* .navBars{
-
-
-
-
-
-} */
 
 
 .landingpage {
         display: flex;
         justify-content: center;
-        background-image: url("https://rainbowfilter.io/images/filters/david-bowie/banner.png?v=2") ;
-        background-size: 800px;
+        background-image: url("https://i.pinimg.com/564x/12/aa/d1/12aad1be72aecd475af996011258cfba.jpg");
+        background-size: 750px;
         background-repeat: no-repeat; 
-        width: 1000px;
-        height: 1000px;
+        width: 700px;
+        height: 800px;
         padding-left: 100px;
         margin-left: 50px;
-        background-origin: content-box;
+        background-origin: content-box
         margin-top: 10px;
         margin-bottom: 10px
         
+
 }
 
 .david-bowie-tribute-summary-photo img {
@@ -103,12 +78,6 @@ a {
     height: 700px;
 }
 
-
-article {
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: flex-start;
-}
 
 .david-bowie-tribute-summary-info {
     display: flex;
@@ -120,8 +89,6 @@ article {
     margin: 20px;
     font-weight: bold;
     font-size: 16px;
-    background-color: white;
-    opacity: 20%;
     padding-left: 20px;
 
     }
@@ -158,9 +125,9 @@ li {
     
 }
 
-li {
+/* li {
 list-style-type: none;
-}
+} */
 
 .newsContainer {
     display: flex;
@@ -239,7 +206,11 @@ padding: 25px;
     align-items: center;
     flex-basis: 25%;
     padding: 5px;
+
+    margin: 10px;  
+
     margin: 10px;
+
     
 }
 
@@ -514,5 +485,9 @@ footer a{
 
 
 
-
+/* article {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+} */
 
