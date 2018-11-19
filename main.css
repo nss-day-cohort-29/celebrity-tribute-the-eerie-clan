@@ -1,4 +1,3 @@
-
 /* body {
     background-image: url("https://rainbowfilter.io/images/filters/david-bowie/banner.png?v=2");
     background-size: 900px;
@@ -28,7 +27,6 @@ a {
     font-size: 55px;
     border: 5px double red;
     padding: 10px;
-=======
 
 .landingBody {
     /* background-image: url("https://rainbowfilter.io/images/filters/david-bowie/banner.png?v=2");
@@ -116,6 +114,20 @@ article {
 
 li {
     list-style-type: none;
+    padding: 0px;
+    
+}
+
+.summaryh1 {
+    font-size: 35px;
+    border-bottom: 3px solid red;
+    margin-top: 40px;
+    padding-top: 20px;
+    
+}
+
+li {
+list-style-type: none;
 }
 
 .newsContainer {
@@ -136,6 +148,28 @@ li {
 }
 
 #newsfeedHead {
+
+display: flex;
+justify-content: center;
+border: 3px solid black;
+}
+
+.newsfeed {
+display: flex;
+justify-content: flex-start;
+flex-basis: 25%;
+padding: 25px;
+font-size: 20px;
+
+}
+
+.newsImg {
+width: 200px;
+height: 200px;
+padding: 25px;
+
+}
+
     display: flex;
     justify-content: center;
     font-size: 40px;
@@ -184,6 +218,29 @@ li {
     padding: 2px;
     margin: 20px;
 
+
+
+#personal__header--H1 {
+        text-shadow: 1px 1px #a3a3a3;
+        text-align: right;
+        font-size: 35px;
+        border-bottom: 3px solid red;
+        margin-top: 40px;
+        padding-top: 20px;
+        padding-right: 100px
+}
+
+
+#personal__header--H2 {
+    text-shadow: 1px 1px #a3a3a3;
+    font-size: 25px;
+    text-align: right;
+   }
+
+.personal__container {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 48%;
 }
 
 .newsText {
@@ -198,20 +255,32 @@ li {
 
 
 
-#personal__header {
+
+.personal__info ul {
     display: flex;
-    justify-content: center;
-    border: 3px solid black;
-    background-color: purple;
-    color: bisque;
+    flex-direction: column;
+    justify-content: start;
+    border: 3px solid red;
+    padding: 5px;
+    font-size: 20px;    
 }
 
-.personal__info {
-    border: 15px solid green;
-    background-color: bisque;
-    align-content: center;
+.personal__family {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-basis: 30%;
+    border: 3px solid red;
     padding: 25px;
     font-size: 20px;
+
+    }
+    
+    .personal__family p {
+        border: 3px solid red; 
+    }
+
+
 }
 /* JD CSS FOR CAREER PAGE CUSTOMIZED TO A FAULT IN SOME AREAS. BEM SYNTAX FOR CLASSES THAT I USED. - JD */
 
@@ -273,6 +342,7 @@ i {
 .rating input:checked ~ label:after {
     opacity: 1;
 }
+
 .bowie_Image_Container {
 
     display: flex;
