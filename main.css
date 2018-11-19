@@ -1,10 +1,25 @@
 
-/* body {
-    background-image: url("https://rainbowfilter.io/images/filters/david-bowie/banner.png?v=2");
+.landingBody {
+    /* background-image: url("https://rainbowfilter.io/images/filters/david-bowie/banner.png?v=2");
     background-size: 900px;
     background-repeat: no-repeat;
-    
-} */
+     */
+
+
+     /* ADDED BG COLOR USED GRADIENT WE CAN REMOVE IF YOU WANT. - JD */
+     background-image: linear-gradient(to bottom right, pink ,purple );
+}
+
+/* I THOUGHT A ROW LOOK FOR THE NAVBARS LOOKED BETTER. AGAIN STYLE CHOICE WE CAN CHANGE IF NECESSARY. -JD */
+.navBars{
+
+    display:flex;
+    flex-flow: row;
+    justify-content: space-between;
+    font-size: 20px;
+    font-weight: bold;
+
+}
 
 .landingpage {
         display: flex;
@@ -108,28 +123,40 @@ li {
     padding: 25px;
     font-size: 20px;
 }
+/* JD CSS FOR CAREER PAGE CUSTOMIZED TO A FAULT IN SOME AREAS. BEM SYNTAX FOR CLASSES THAT I USED. - JD */
 
 .bowie_Image_Container {
 
-    margin: 0px 0px 0px 0px;
+    display: flex;
+    flex-flow: row;
+    width: auto;
+    justify-content: space-evenly;
 
 }
-
+ /* ROUNDED IMAGES AND TRIED MY BEST TO GET THEM TO FIT A LITTLE BETTER ON SCREEN. OVERALL I WAS HAPPY ON MY LAY OUT. */
 .bowie_Image1 {
-    height: 50%;
-    width: 50%;
+    height: 30%;
+    width: 30%;
+    border-radius: 12px;
+    
 }
 
 .bowie_Image2 {
-    height: 50%;
-    width: 50%;
+    height: 30%;
+    width: 35%;
+    border-radius: 12px;
 }
 
 .bowie_Image3 {
-    height: 50%;
-    width: 50%;
+    height: 60%;
+    width: 30%;
+    border-radius: 12px;
 }
 
+
+
+
+/* STYLED MY MAIN HEADER I WANTED TO KEEP IN LINE WITH ASIA'S HEADER STYLE SO I USED HER HEADER AS STYLE GUIDE. JD */
 .bowie_Career_H1 {
 
     text-shadow: 1px 1px #a3a3a3;
@@ -141,7 +168,7 @@ li {
     padding-right: 100px
     
 }
-
+/* INTRO PARAGRAPH STYLED. JD */
 .bowie_Career_Intro {
 
     text-align: center;
@@ -149,27 +176,89 @@ li {
 
 }
 
+/* I WANTED TO KEEP MOST OF MY LIST AND HEADER SEPERATE IN ORDER TO GIVE THE MODULARITY AND FLEXIBILITY ON SCREEN. -JD */
 .bowie_Career_SkillList_Top{
     
     text-shadow: 1px 1px #a3a3a3;
     text-align: right;
-    margin: 20px 20px 10px 20px;
+    margin: 20px 40px 10px 20px;
 
 }
-
+/* SAME LIST SEPERATION. MOST LISTS SHARED SIMILAR STYLE CUES. -JD */
 .bowie_Career_SkillList{
 
     text-align: right;
     margin: 0px 40px 10px 20px;
 }
-
+/* FOR SOME REASON I DECIDED TO USE THE TERM TOP INSTEAD OR TITLE OR HEADER TO FURTHER DIFFERENTIATE MYSELF FROM THE TEAMS CLASSES. -JD */
 .bowie_Career_WorkList_Top{
 
     text-shadow: 1px 1px #a3a3a3;
     text-align: right;
-    margin: 20px 20px 10px 20px;
+    margin: 20px 40px 10px 20px;
+}
+
+.bowie_Career_WorkList {
+
+    text-align: right;
+    margin: 0px 40px 10px 20px;
 
 }
+
+.bowie_Career_LivedList_Top{
+
+    text-shadow: 1px 1px #a3a3a3;
+    text-align: right;
+    margin: 20px 40px 10px 20px;
+
+}
+
+.bowie_Career_LivedList{
+
+    text-align: right;
+    margin: 0px 40px 10px 20px;
+
+
+}
+
+.bowie_Career_Collaborator_Top{
+
+    text-shadow: 1px 1px #a3a3a3;
+    text-align: right;
+    margin: 20px 40px 10px 20px;
+
+}
+
+.bowie_Career_CollaboratorList{
+
+    text-align: right;
+    margin: 0px 40px 10px 20px;
+
+
+}
+
+
+.bowie_Career_Awards_Top{
+
+    text-shadow: 1px 1px #a3a3a3;
+    text-align: right;
+    margin: 20px 40px 10px 20px;
+
+}
+
+.bowie_Career_AwardsList{
+
+    text-align: right;
+    margin: 0px 40px 10px 20px;
+
+
+}
+
+/* END OF CAREER CSS - JD */
+
+
+
+
 
 
 
