@@ -1,10 +1,29 @@
  
 
 .nav {
+
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+
+    font-size: 35px;
+    background-image: linear-gradient(to bottom top, #e0e0e0, #9e9e9e); 
+    border-radius: 12px; 
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    
+}
+
+.nav > li:hover {
+
+    /* background-color: rgb(248, 225, 160); */
+    background-image: linear-gradient(to top, rgb(108, 128, 108) , rgb(235, 253, 235) );
+    border-radius: 12px;
+    box-shadow: 5px 10px #888888;
+    
+
+
     font-size: 40px;
     background-color: white;
     text-decoration: none;
@@ -14,6 +33,7 @@
 
 .nav li {
     margin: 15px;
+
 }
 
 a {
@@ -31,6 +51,39 @@ a {
 }
 
 
+    
+
+
+    /* body{
+    background-image: url("https://rainbowfilter.io/images/filters/david-bowie/banner.png?v=2");
+    background-size: 900px;
+    background-repeat: no-repeat;
+    }
+     */
+
+
+.landingBody {
+    /* background-image: url("https://rainbowfilter.io/images/filters/david-bowie/banner.png?v=2");
+    background-size: 900px;
+    background-repeat: no-repeat;
+     */
+
+
+     /* ADDED BG COLOR USED GRADIENT WE CAN REMOVE IF YOU WANT. - JD */
+     background-image: linear-gradient(to bottom right, pink ,purple );
+}
+
+/* I THOUGHT A ROW LOOK FOR THE NAVBARS LOOKED BETTER. AGAIN STYLE CHOICE WE CAN CHANGE IF NECESSARY. -JD */
+
+
+/* .navBars{
+
+
+
+
+
+} */
+
 
 .landingpage {
         display: flex;
@@ -42,13 +95,12 @@ a {
         height: 800px;
         padding-left: 100px;
         margin-left: 50px;
-        background-origin: content-box;
-        position: relati
-       
+        background-origin: content-box
+        margin-top: 10px;
+        margin-bottom: 10px
+        
 
-       
 }
-
 
 .david-bowie-tribute-summary-photo img {
     width: 500px;
@@ -143,10 +195,11 @@ font-size: 20px;
 width: 200px;
 height: 200px;
 padding: 25px;
-
 }
 
+
    .newsText { 
+
     display: flex;
     justify-content: center;
     font-size: 40px;
@@ -182,7 +235,11 @@ padding: 25px;
     align-items: center;
     flex-basis: 25%;
     padding: 5px;
+
     margin: 10px;  
+
+    margin: 10px;
+
     
 }
 
@@ -201,6 +258,7 @@ padding: 25px;
         text-shadow: 1px 1px #a3a3a3;
         text-align: right;
         font-size: 35px;
+        font-weight: bold;
         border-bottom: 3px solid red;
         margin-top: 40px;
         padding-top: 20px;
@@ -210,8 +268,9 @@ padding: 25px;
 
 #personal__header--H2 {
     text-shadow: 1px 1px #a3a3a3;
-    font-size: 25px;
+    font-size: 1.5em;
     text-align: right;
+    font-weight: bold;
    }
 
 .personal__container {
@@ -255,6 +314,7 @@ padding: 25px;
 
 
 
+
 /* JD CSS FOR CAREER PAGE CUSTOMIZED TO A FAULT IN SOME AREAS. BEM SYNTAX FOR CLASSES THAT I USED. - JD */
 
 i {
@@ -262,11 +322,8 @@ i {
     margin: 5px;
 }
 
-
-
 .rating {
    
-    
     display: flex;
     justify-content: center;
     flex-direction: row-reverse;
@@ -314,6 +371,8 @@ i {
 .rating input:checked ~ label:after {
     opacity: 1;
 }
+
+/* JD CSS FOR CAREER PAGE CUSTOMIZED TO A FAULT IN SOME AREAS. BEM SYNTAX FOR CLASSES THAT I USED. - JD */
 
 .bowie_Image_Container {
 
