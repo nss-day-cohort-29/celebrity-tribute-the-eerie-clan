@@ -1,3 +1,34 @@
+ 
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 40px;
+    background-color: #4cb69f;
+    text-decoration: none;
+    
+}
+
+.nav li {
+    margin: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    
+    
+}
+
+.logo {
+    font-family: 'Monoton', cursive;
+    font-size: 55px;
+    border: 5px double red;
+    padding: 10px;
+}
+    
 
 
     /* body{
@@ -20,15 +51,7 @@
 }
 
 /* I THOUGHT A ROW LOOK FOR THE NAVBARS LOOKED BETTER. AGAIN STYLE CHOICE WE CAN CHANGE IF NECESSARY. -JD */
-.navBars{
 
-    display:flex;
-    flex-flow: row;
-    justify-content: space-between;
-    font-size: 20px;
-    font-weight: bold;
-
-}
 
 
 .landingpage {
@@ -94,46 +117,235 @@ article {
 
 li {
     list-style-type: none;
+    padding: 0px;
+    
 }
-#newsfeedHead {
+
+.summaryh1 {
+    font-size: 35px;
+    border-bottom: 3px solid red;
+    margin-top: 40px;
+    padding-top: 20px;
+    
+}
+
+li {
+list-style-type: none;
+}
+
+.newsContainer {
     display: flex;
-    justify-content: center;
-    border: 3px solid black;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #3d3d3f;
+    padding: 1em;
+    
+     
+}
+
+.newsfeedContainer {
+    display: flex;
+    flex-direction: column;
+    background-color: #f9f8fd;
+    
+}
+
+#newsfeedHead {
+
+display: flex;
+justify-content: center;
+border: 3px solid black;
 }
 
 .newsfeed {
+display: flex;
+justify-content: flex-start;
+flex-basis: 25%;
+padding: 25px;
+font-size: 20px;
+
+}
+
+.newsImg {
+width: 200px;
+height: 200px;
+padding: 25px;
+
+}
+
+   .newsText { 
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
+    font-size: 40px;
+    background-color:  #f6f5f3x;
+    /* border: 5px solid black; */
+    margin: 5px;
+    font-family: 'Hammersmith One', sans-serif;
+}
+
+.eventContainer {
+    display: flex;
+    flex-direction: column;
+    background-color:  #a39274;
+}
+
+
+
+#eventHead {
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    background-color: #252523;
+    border: 5px solid black;
+    margin: 5px;
+}
+
+.newsfeed {
+    border: 3px solid black;
+    border-radius: 5px;
+    background-color: #AAAAAA;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     flex-basis: 25%;
-    padding: 25px;
-    font-size: 20px;
+    padding: 5px;
+    margin: 10px;
+    
     
 }
 
 .newsImg {
-    width: 200px;
-    height: 200px;
-    padding: 25px;
-
+    border: 1px solid black;
+    border-radius: 10%;
+    width: 40%;
+    height: 60%;
+    padding: 2px;
+    margin: 20px;
 }
 
 
-#personal__header {
+
+#personal__header--H1 {
+        text-shadow: 1px 1px #a3a3a3;
+        text-align: right;
+        font-size: 35px;
+        border-bottom: 3px solid red;
+        margin-top: 40px;
+        padding-top: 20px;
+        padding-right: 100px
+}
+
+
+#personal__header--H2 {
+    text-shadow: 1px 1px #a3a3a3;
+    font-size: 25px;
+    text-align: right;
+   }
+
+.personal__container {
     display: flex;
-    justify-content: center;
-    border: 3px solid black;
-    background-color: purple;
-    color: bisque;
+    flex-direction: column;
+    flex-basis: 48%;
 }
 
-.personal__info {
-    border: 15px solid green;
-    background-color: bisque;
-    align-content: center;
+.newsText {
+    text-decoration: none;
+    font-size: 20px;
+    color: #FFFFFF;
+    font-family: 'Hammersmith One', sans-serif;
+    
+} 
+
+
+
+
+
+
+.personal__info ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    border: 3px solid red;
+    padding: 5px;
+    font-size: 20px;    
+}
+
+.personal__family {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-basis: 30%;
+    border: 3px solid red;
     padding: 25px;
     font-size: 20px;
-}
+
+    }
+    
+    .personal__family p {
+        border: 3px solid red; 
+    }
+
+
+
 /* JD CSS FOR CAREER PAGE CUSTOMIZED TO A FAULT IN SOME AREAS. BEM SYNTAX FOR CLASSES THAT I USED. - JD */
+
+i {
+    font-size: 40px;
+    margin: 5px;
+}
+
+
+
+.rating {
+   
+    
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    
+}
+
+.rating input {
+    display: none;
+}
+
+.rating label {
+    display: block;
+    cursor: pointer;
+    width: 50px;
+    
+}
+
+/* star graphic controller */
+.rating label:before {
+    content: '\f005';
+    font-family: fontAwesome;
+    position: relative;
+    display: block;
+    font-size: 50px;
+    opacity: 0;
+    color: #101010;
+    
+}
+
+.rating label:after {
+    content: '\f005';
+    font-family: fontAwesome;
+    position: absolute;
+    display: block;
+    font-size: 50px;
+    color: #1f9cff;
+    
+    opacity: 0;
+    transition: .5s;
+    text-shadow: 0 2px 5px rgba(0,0,0,.5);
+}
+
+.rating label:hover:after,
+.rating label:hover ~ label:after,
+.rating input:checked ~ label:after {
+    opacity: 1;
+}
 
 .bowie_Image_Container {
 
@@ -162,8 +374,6 @@ li {
     width: 30%;
     border-radius: 12px;
 }
-
-
 
 
 /* STYLED MY MAIN HEADER I WANTED TO KEEP IN LINE WITH ASIA'S HEADER STYLE SO I USED HER HEADER AS STYLE GUIDE. JD */
@@ -195,13 +405,13 @@ li {
 
 }
 /* SAME LIST SEPERATION. MOST LISTS SHARED SIMILAR STYLE CUES. -JD */
-.bowie_Career_SkillList{
+.bowie_Career_SkillList {
 
     text-align: right;
     margin: 0px 40px 10px 20px;
 }
 /* FOR SOME REASON I DECIDED TO USE THE TERM TOP INSTEAD OR TITLE OR HEADER TO FURTHER DIFFERENTIATE MYSELF FROM THE TEAMS CLASSES. -JD */
-.bowie_Career_WorkList_Top{
+.bowie_Career_WorkList_Top {
 
     text-shadow: 1px 1px #a3a3a3;
     text-align: right;
@@ -215,7 +425,7 @@ li {
 
 }
 
-.bowie_Career_LivedList_Top{
+.bowie_Career_LivedList_Top {
 
     text-shadow: 1px 1px #a3a3a3;
     text-align: right;
@@ -223,7 +433,7 @@ li {
 
 }
 
-.bowie_Career_LivedList{
+.bowie_Career_LivedList {
 
     text-align: right;
     margin: 0px 40px 10px 20px;
@@ -231,7 +441,7 @@ li {
 
 }
 
-.bowie_Career_Collaborator_Top{
+.bowie_Career_Collaborator_Top {
 
     text-shadow: 1px 1px #a3a3a3;
     text-align: right;
@@ -239,7 +449,7 @@ li {
 
 }
 
-.bowie_Career_CollaboratorList{
+.bowie_Career_CollaboratorList {
 
     text-align: right;
     margin: 0px 40px 10px 20px;
@@ -248,7 +458,7 @@ li {
 }
 
 
-.bowie_Career_Awards_Top{
+.bowie_Career_Awards_Top {
 
     text-shadow: 1px 1px #a3a3a3;
     text-align: right;
@@ -256,15 +466,21 @@ li {
 
 }
 
-.bowie_Career_AwardsList{
+.bowie_Career_AwardsList {
 
     text-align: right;
     margin: 0px 40px 10px 20px;
 
 
 }
+
 
 /* END OF CAREER CSS - JD */
+
+footer,
+footer a{
+    margin: 10px;
+}
 
 
 

@@ -6,66 +6,67 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Hammersmith+One|Monoton" rel="stylesheet">
 </head>
 <body>
-    <header>
-      <nav>
-          <ul>
-              <li><a href="summary.html">Executive Summary</a></li>
-              <li><a href="career.html">Career</a></li>
-              <li><a href="personal.html">Personal</a></li>
-              <li><a href="newsfeed.html">Newsfeed</a></li>
-          </ul>
-      </nav>
-    </header>
-
-    <div class="box" id="personal__header">PERSONAL</div>
-
-    <article class="personal__info">
-        <!-- Birth date with country of origin. -->
-        <section>
-            <p>Birth Date: January 8th 1947</p>
-            <p>Place of Birth: Brixton, South London England</p>
-        </section>
-
-        <!-- Birth name (if different than public name) -->
-        <section>
-            <p>Birth Name: David Robert Jones</p>
-        </section>
-
-        <!-- Death date if applicable. -->
-        <section>
-                <p>Death Date: January 10th 2016</p>
-        </section>
-    </article>
-    <!-- Country of current residence. -->
+    <nav>
+        <ul class="nav">
+            <li><a href="summary.html"> Summary</a></li>
+            <li><a href="career.html">Career</a></li>
+            <li class="logo"><a href="index.html">BOWIE</a></li></a></li>
+            <li><a href="personal.html">Personal</a></li>
+            <li><a href="newsfeed.html">Newsfeed</a></li>
+        </ul>
+    </nav>
     
+
+    <div class="box" id="personal__header--H1">PERSONAL</div>
+
+    <article class="personal__container">
+        <!-- Birth date with country of origin. -->
+        <!-- Birth name (if different than public name) -->        
+        <!-- Death date if applicable. -->
+        <section class="personal__info">
+            <h2 id="personal__header--h2">Information</h2>
+            <ul>
+                <li><p>Birth Date: January 8th 1947</p></li>
+                <li><p>Place of Birth: Brixton, South London England</p></li>
+                <li><p>Birth Name: David Robert Jones</p></li>
+                <li><p>Death Date: January 10th 2016</p></li>
+            </ul>
+            <ul>
+                <li><p>Father: Haywood Stenton "John" Jones (1912–1969)</p></li>
+                <li><p>Mother: Margaret Mary "Peggy" (née Burns; 1913–2001)</p></li>
+                <li><p>First Wife Mary Angela Barnett (1970-80)</p></li>
+            </ul>
+        </section>
+            
     <!-- List of immediate family members (for example: spouse, 
         children, siblings, parents) - minimum 3 with images.
     For multiple spouses, show begin/end dates. -->
-    <article>
-        <section class="personal__info">
-            <h4 id="personal__header">Family</h4>
+        <h2 id="personal__header--h2">Family</h2>
+        <section class="personal__family">
             <ul>
-                <li>Father: Haywood Stenton "John" Jones (1912–1969)</li>
-                <li>Mother: Margaret Mary "Peggy" (née Burns; 1913–2001)</li>
-                <li>First Wife Mary Angela Barnett (1970-80)</li>
-                <li>Son Duncan "Zowie" born on May 30th 1971</li>
-                <li><a><img src="https://upload.wikimedia.org/wikipedia/commons/4/40/Duncan_Jones_by_Gage_Skidmore_3.jpg" alt="Zowie" width="200" height="200"/></a></li>
-                <li>Second wife: Zara Mohamed Abdulmajid "Iman" (1992-)</p>
-                <li><a><img src="https://upload.wikimedia.org/wikipedia/commons/4/42/Iman_at_the_2009_Tribeca_Film_Festival.jpg" alt="Iman" width="200" height="200"/></a></li>
-                <li>Daughter: Alexandria "Lexi" Zahra Jones, born in August 2000 </li>
-                <li><a><img src="https://i.pinimg.com/originals/23/5d/0b/235d0be029f76dd3802fc55be0693f34.jpg" alt="Lexi" width="200" height="300"/></a></li>
+                <li><p class="son">Son Duncan "Zowie" born on May 30th 1971</p></li>
+                <li><a class="son"><img src="https://upload.wikimedia.org/wikipedia/commons/4/40/Duncan_Jones_by_Gage_Skidmore_3.jpg" alt="Zowie" width="200" height="200"/></a></li>
+            </ul>
+            <ul>
+                <li><p class="iman">Second wife: Zara Mohamed Abdulmajid "Iman" (1992-)</p></li>
+                <li><a class="iman"><img src="https://upload.wikimedia.org/wikipedia/commons/4/42/Iman_at_the_2009_Tribeca_Film_Festival.jpg" alt="Iman" width="200" height="200"/></a></li>
+            </ul>
+            <ul>
+                <li><p class="daughter">Daughter: Alexandria "Lexi" Zahra Jones, born in August 2000</p></li>
+                <li><a class="daughter"><img src="https://i.pinimg.com/originals/23/5d/0b/235d0be029f76dd3802fc55be0693f34.jpg" alt="Lexi" width="200" height="300"/></a></li>
             </ul>
         </section>
     </article>>
 
     <footer>
-        <ul>
-            <li><a href ="">facebook</a></li>
-            <li><a href ="">twitter</a></li>
-            <li><a href ="">facebook</a></li>
-        </ul>
+            <a href="https://www.facebook.com"><i class="fab fa-facebook"></i></a>
+            <a href="https://twitter.com/DavidBowieReal?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.instagram.com/davidbowie/?hl=en"><i class="fab fa-instagram"></i></a>
+            
     </footer>
     
 </body>
