@@ -134,9 +134,7 @@ list-style-type: none;
     flex-direction: row;
     justify-content: space-around;
     background-color: #3d3d3f;
-    padding: 1em;
-    
-     
+    padding: 10px;   
 }
 
 .newsfeedContainer {
@@ -156,6 +154,7 @@ border: 3px solid black;
 .newsfeed {
 display: flex;
 justify-content: flex-start;
+align-content: flex-start
 flex-basis: 25%;
 padding: 25px;
 font-size: 20px;
@@ -163,8 +162,8 @@ font-size: 20px;
 }
 
 .newsImg {
-width: 200px;
-height: 200px;
+width: 150px;
+height: 150px;
 padding: 25px;
 }
 
@@ -173,17 +172,23 @@ padding: 25px;
 
     display: flex;
     justify-content: center;
-    font-size: 40px;
+    font-size: 20px;
+    color: #FFFFFF;
     background-color:  #f6f5f3x;
-    /* border: 5px solid black; */
     margin: 5px;
     font-family: 'Hammersmith One', sans-serif;
 }
+
+
 
 .eventContainer {
     display: flex;
     flex-direction: column;
     background-color:  #a39274;
+}
+
+.clickForEvent {
+    margin-left: 5px;
 }
 
 
@@ -223,6 +228,15 @@ padding: 25px;
     margin: 20px;
 }
 
+.eventImg {
+    border: 1px solid black;
+    border-radius: 10%;
+    width: 40%;
+    height: 60%;
+    padding: 2px;
+    margin: 20px;
+} 
+
 
 
 #personal__header--H1 {
@@ -250,13 +264,7 @@ padding: 25px;
     flex-basis: 48%;
 }
 
-.newsText {
-    text-decoration: none;
-    font-size: 20px;
-    color: #FFFFFF;
-    font-family: 'Hammersmith One', sans-serif;
-    
-} 
+
 
 
 .personal__info ul {
@@ -301,47 +309,6 @@ i {
     
 }
 
-.rating input {
-    display: none;
-}
-
-.rating label {
-    display: block;
-    cursor: pointer;
-    width: 50px;
-    
-}
-
-/* star graphic controller */
-.rating label:before {
-    content: '\f005';
-    font-family: fontAwesome;
-    position: relative;
-    display: block;
-    font-size: 50px;
-    opacity: 0;
-    color: #101010;
-    
-}
-
-.rating label:after {
-    content: '\f005';
-    font-family: fontAwesome;
-    position: absolute;
-    display: block;
-    font-size: 50px;
-    color: #1f9cff;
-    
-    opacity: 0;
-    transition: .5s;
-    text-shadow: 0 2px 5px rgba(0,0,0,.5);
-}
-
-.rating label:hover:after,
-.rating label:hover ~ label:after,
-.rating input:checked ~ label:after {
-    opacity: 1;
-}
 
 /* JD CSS FOR CAREER PAGE CUSTOMIZED TO A FAULT IN SOME AREAS. BEM SYNTAX FOR CLASSES THAT I USED. - JD */
 
@@ -474,7 +441,6 @@ i {
 
 
 /* END OF CAREER CSS - JD */
-
 footer,
 footer a{
     margin: 10px;
