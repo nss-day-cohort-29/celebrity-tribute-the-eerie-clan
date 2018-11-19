@@ -1,9 +1,4 @@
-/* body {
-    background-image: url("https://rainbowfilter.io/images/filters/david-bowie/banner.png?v=2");
-    background-size: 900px;
-    background-repeat: no-repeat;
-    
-}*/ 
+ 
 
 .nav {
     display: flex;
@@ -12,6 +7,7 @@
     align-items: center;
     font-size: 40px;
     background-color: #4cb69f;
+    text-decoration: none;
     
 }
 
@@ -36,20 +32,11 @@ a {
 
 
      /* ADDED BG COLOR USED GRADIENT WE CAN REMOVE IF YOU WANT. - JD */
-     background-image: linear-gradient(to bottom right, pink ,purple );
+     /* background-image: linear-gradient(to bottom right, pink ,purple ); */
 }
 
 /* I THOUGHT A ROW LOOK FOR THE NAVBARS LOOKED BETTER. AGAIN STYLE CHOICE WE CAN CHANGE IF NECESSARY. -JD */
-.navBars{
 
-    display:flex;
-    flex-flow: row;
-    justify-content: space-between;
-    font-size: 20px;
-    font-weight: bold;
-
-
-}
 
 .landingpage {
         display: flex;
@@ -62,6 +49,7 @@ a {
         padding-left: 100px;
         margin-left: 50px;
         background-origin: content-box;
+        background-image: linear-gradient(to bottom right, pink ,purple );
        
 }
 
@@ -370,8 +358,6 @@ i {
     width: 30%;
     border-radius: 12px;
 }
-
-
 
 
 /* STYLED MY MAIN HEADER I WANTED TO KEEP IN LINE WITH ASIA'S HEADER STYLE SO I USED HER HEADER AS STYLE GUIDE. JD */
