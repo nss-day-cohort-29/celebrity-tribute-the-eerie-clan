@@ -21,6 +21,7 @@
     background-image: linear-gradient(to top, rgb(108, 128, 108) , rgb(235, 253, 235) );
     border-radius: 12px;
     box-shadow: 5px 10px #888888;
+    transition: .5s;
     
 
 
