@@ -28,31 +28,10 @@ a {
     border: 5px double red;
     padding: 10px;
 }
-    
-
-
-    /* body{
-    background-image: url("https://rainbowfilter.io/images/filters/david-bowie/banner.png?v=2");
-    background-size: 900px;
-    background-repeat: no-repeat;
-    }
-     */
-
 
 .landingBody {
-    /* background-image: url("https://rainbowfilter.io/images/filters/david-bowie/banner.png?v=2");
-    background-size: 900px;
-    background-repeat: no-repeat;
-     */
-
-
-     /* ADDED BG COLOR USED GRADIENT WE CAN REMOVE IF YOU WANT. - JD */
      background-image: linear-gradient(to bottom right, pink ,purple );
 }
-
-/* I THOUGHT A ROW LOOK FOR THE NAVBARS LOOKED BETTER. AGAIN STYLE CHOICE WE CAN CHANGE IF NECESSARY. -JD */
-
-
 
 .landingpage {
         display: flex;
@@ -75,12 +54,6 @@ a {
 }
 
 
-article {
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: flex-start;
-}
-
 .david-bowie-tribute-summary-info {
     display: flex;
     flex-direction: row;
@@ -91,8 +64,6 @@ article {
     margin: 20px;
     font-weight: bold;
     font-size: 16px;
-    background-color: white;
-    opacity: 20%;
     padding-left: 20px;
 
     }
@@ -209,8 +180,7 @@ padding: 25px;
     align-items: center;
     flex-basis: 25%;
     padding: 5px;
-    margin: 10px;
-    
+    margin: 10px;  
     
 }
 
@@ -255,10 +225,6 @@ padding: 25px;
     font-family: 'Hammersmith One', sans-serif;
     
 } 
-
-
-
-
 
 
 .personal__info ul {
@@ -487,5 +453,9 @@ footer a{
 
 
 
-
+/* article {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+} */
 
