@@ -248,3 +248,68 @@ i {
 .rating input:checked ~ label:after {
     opacity: 1;
 }
+.bowie_Image_Container {
+
+    margin: 0px 0px 0px 0px;
+
+}
+
+.bowie_Image1 {
+    height: 50%;
+    width: 50%;
+}
+
+.bowie_Image2 {
+    height: 50%;
+    width: 50%;
+}
+
+.bowie_Image3 {
+    height: 50%;
+    width: 50%;
+}
+
+.bowie_Career_H1 {
+
+    text-shadow: 1px 1px #a3a3a3;
+    text-align: right;
+    font-size: 35px;
+    border-bottom: 3px solid red;
+    margin-top: 40px;
+    padding-top: 20px;
+    padding-right: 100px
+    
+}
+
+.bowie_Career_Intro {
+
+    text-align: center;
+    margin: 20px 20px 50px 20px;
+
+}
+
+.bowie_Career_SkillList_Top{
+    
+    text-shadow: 1px 1px #a3a3a3;
+    text-align: right;
+    margin: 20px 20px 10px 20px;
+
+}
+
+.bowie_Career_SkillList{
+
+    text-align: right;
+    margin: 0px 40px 10px 20px;
+}
+
+.bowie_Career_WorkList_Top{
+
+    text-shadow: 1px 1px #a3a3a3;
+    text-align: right;
+    margin: 20px 20px 10px 20px;
+
+}
+
+
+
+
