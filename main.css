@@ -32,6 +32,11 @@
     
 }
 
+.nav > li {
+    transition: .5s;
+    
+}
+
 .nav li {
     margin: 15px;
 
