@@ -1,3 +1,33 @@
+/* body {
+    background-image: url("https://rainbowfilter.io/images/filters/david-bowie/banner.png?v=2");
+    background-size: 900px;
+    background-repeat: no-repeat;
+    
+}*/ 
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 40px;
+    background-color: #4cb69f;
+    
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    
+    
+}
+
+.logo {
+    font-family: 'Monoton', cursive;
+    font-size: 55px;
+    border: 5px double red;
+    padding: 10px;
+
 .landingBody {
     /* background-image: url("https://rainbowfilter.io/images/filters/david-bowie/banner.png?v=2");
     background-size: 900px;
@@ -17,6 +47,7 @@
     justify-content: space-between;
     font-size: 20px;
     font-weight: bold;
+
 
 }
 
@@ -98,7 +129,26 @@ li {
 li {
 list-style-type: none;
 }
+
+.newsContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #3d3d3f;
+    padding: 1em;
+    
+     
+}
+
+.newsfeedContainer {
+    display: flex;
+    flex-direction: column;
+    background-color: #f9f8fd;
+    
+}
+
 #newsfeedHead {
+
 display: flex;
 justify-content: center;
 border: 3px solid black;
@@ -120,6 +170,55 @@ padding: 25px;
 
 }
 
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    background-color:  #f6f5f3x;
+    border: 5px solid black;
+    margin: 5px;
+    font-family: 'Hammersmith One', sans-serif;
+}
+
+.eventContainer {
+    display: flex;
+    flex-direction: column;
+    background-color:  #a39274;
+}
+
+
+
+#eventHead {
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    background-color: #252523;
+    border: 5px solid black;
+    margin: 5px;
+}
+
+.newsfeed {
+    border: 3px solid black;
+    border-radius: 5px;
+    background-color: #AAAAAA;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-basis: 25%;
+    padding: 5px;
+    margin: 10px;
+    
+    
+}
+
+.newsImg {
+    border: 1px solid black;
+    border-radius: 10%;
+    width: 40%;
+    height: 60%;
+    padding: 2px;
+    margin: 20px;
+
+
 
 #personal__header--H1 {
         text-shadow: 1px 1px #a3a3a3;
@@ -130,6 +229,7 @@ padding: 25px;
         padding-top: 20px;
         padding-right: 100px
 }
+
 
 #personal__header--H2 {
     text-shadow: 1px 1px #a3a3a3;
@@ -142,6 +242,19 @@ padding: 25px;
     flex-direction: column;
     flex-basis: 48%;
 }
+
+.newsText {
+    text-decoration: none;
+    font-size: 20px;
+    color: #FFFFFF;
+    font-family: 'Hammersmith One', sans-serif;
+    
+} 
+
+
+
+
+
 
 .personal__info ul {
     display: flex;
@@ -171,6 +284,64 @@ padding: 25px;
 }
 /* JD CSS FOR CAREER PAGE CUSTOMIZED TO A FAULT IN SOME AREAS. BEM SYNTAX FOR CLASSES THAT I USED. - JD */
 
+i {
+    font-size: 40px;
+    margin: 5px;
+}
+
+
+
+.rating {
+   
+    
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    
+    
+    
+}
+.rating input {
+    display: none;
+}
+
+.rating label {
+    display: block;
+    cursor: pointer;
+    width: 50px;
+    
+}
+
+/* star graphic controller */
+.rating label:before {
+    content: '\f005';
+    font-family: fontAwesome;
+    position: relative;
+    display: block;
+    font-size: 50px;
+    opacity: 0;
+    color: #101010;
+    
+}
+
+.rating label:after {
+    content: '\f005';
+    font-family: fontAwesome;
+    position: absolute;
+    display: block;
+    font-size: 50px;
+    color: #1f9cff;
+    
+    opacity: 0;
+    transition: .5s;
+    text-shadow: 0 2px 5px rgba(0,0,0,.5);
+}
+
+.rating label:hover:after,
+.rating label:hover ~ label:after,
+.rating input:checked ~ label:after {
+    opacity: 1;
+}
 
 .bowie_Image_Container {
 
