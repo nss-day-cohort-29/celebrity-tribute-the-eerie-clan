@@ -1,9 +1,4 @@
-/* body {
-    background-image: url("https://rainbowfilter.io/images/filters/david-bowie/banner.png?v=2");
-    background-size: 900px;
-    background-repeat: no-repeat;
-    
-}*/ 
+ 
 
 .nav {
 
@@ -11,6 +6,7 @@
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+
     font-size: 35px;
     background-image: linear-gradient(to bottom top, #e0e0e0, #9e9e9e); 
     border-radius: 12px; 
@@ -26,6 +22,16 @@
     border-radius: 12px;
     box-shadow: 5px 10px #888888;
     
+
+
+    font-size: 40px;
+    background-color: #4cb69f;
+    text-decoration: none;
+    
+}
+
+.nav li {
+    margin: 15px;
 
 }
 
@@ -43,6 +49,17 @@ a {
     padding: 10px;
 }
 
+    
+
+
+    /* body{
+    background-image: url("https://rainbowfilter.io/images/filters/david-bowie/banner.png?v=2");
+    background-size: 900px;
+    background-repeat: no-repeat;
+    }
+     */
+
+
 .landingBody {
     /* background-image: url("https://rainbowfilter.io/images/filters/david-bowie/banner.png?v=2");
     background-size: 900px;
@@ -55,16 +72,15 @@ a {
 }
 
 /* I THOUGHT A ROW LOOK FOR THE NAVBARS LOOKED BETTER. AGAIN STYLE CHOICE WE CAN CHANGE IF NECESSARY. -JD */
+
 /* .navBars{
 
-    display:flex;
-    flex-flow: row;
-    justify-content: space-between;
-    font-size: 20px;
-    font-weight: bold;
+
+
 
 
 } */
+
 
 .landingpage {
         display: flex;
@@ -185,13 +201,14 @@ height: 200px;
 padding: 25px;
 }
 
-.newsText
-{
+
+   .newsText { 
+
     display: flex;
     justify-content: center;
     font-size: 40px;
     background-color:  #f6f5f3x;
-    border: 5px solid black;
+    /* border: 5px solid black; */
     margin: 5px;
     font-family: 'Hammersmith One', sans-serif;
 }
@@ -236,10 +253,12 @@ padding: 25px;
 }
 
 
+
 #personal__header--H1 {
         text-shadow: 1px 1px #a3a3a3;
         text-align: right;
         font-size: 35px;
+        font-weight: bold;
         border-bottom: 3px solid red;
         margin-top: 40px;
         padding-top: 20px;
@@ -249,8 +268,9 @@ padding: 25px;
 
 #personal__header--H2 {
     text-shadow: 1px 1px #a3a3a3;
-    font-size: 25px;
+    font-size: 1.5em;
     text-align: right;
+    font-weight: bold;
    }
 
 .personal__container {
@@ -295,6 +315,8 @@ padding: 25px;
 
 
 
+/* JD CSS FOR CAREER PAGE CUSTOMIZED TO A FAULT IN SOME AREAS. BEM SYNTAX FOR CLASSES THAT I USED. - JD */
+
 i {
     font-size: 40px;
     margin: 5px;
@@ -307,6 +329,7 @@ i {
     flex-direction: row-reverse;
     
 }
+
 .rating input {
     display: none;
 }
@@ -409,13 +432,13 @@ i {
 
 }
 /* SAME LIST SEPERATION. MOST LISTS SHARED SIMILAR STYLE CUES. -JD */
-.bowie_Career_SkillList{
+.bowie_Career_SkillList {
 
     text-align: right;
     margin: 0px 40px 10px 20px;
 }
 /* FOR SOME REASON I DECIDED TO USE THE TERM TOP INSTEAD OR TITLE OR HEADER TO FURTHER DIFFERENTIATE MYSELF FROM THE TEAMS CLASSES. -JD */
-.bowie_Career_WorkList_Top{
+.bowie_Career_WorkList_Top {
 
     text-shadow: 1px 1px #a3a3a3;
     text-align: right;
@@ -429,7 +452,7 @@ i {
 
 }
 
-.bowie_Career_LivedList_Top{
+.bowie_Career_LivedList_Top {
 
     text-shadow: 1px 1px #a3a3a3;
     text-align: right;
@@ -437,7 +460,7 @@ i {
 
 }
 
-.bowie_Career_LivedList{
+.bowie_Career_LivedList {
 
     text-align: right;
     margin: 0px 40px 10px 20px;
@@ -445,7 +468,7 @@ i {
 
 }
 
-.bowie_Career_Collaborator_Top{
+.bowie_Career_Collaborator_Top {
 
     text-shadow: 1px 1px #a3a3a3;
     text-align: right;
@@ -453,7 +476,7 @@ i {
 
 }
 
-.bowie_Career_CollaboratorList{
+.bowie_Career_CollaboratorList {
 
     text-align: right;
     margin: 0px 40px 10px 20px;
@@ -462,7 +485,7 @@ i {
 }
 
 
-.bowie_Career_Awards_Top{
+.bowie_Career_Awards_Top {
 
     text-shadow: 1px 1px #a3a3a3;
     text-align: right;
@@ -470,15 +493,21 @@ i {
 
 }
 
-.bowie_Career_AwardsList{
+.bowie_Career_AwardsList {
 
     text-align: right;
     margin: 0px 40px 10px 20px;
 
 
 }
+
 
 /* END OF CAREER CSS - JD */
+
+footer,
+footer a{
+    margin: 10px;
+}
 
 
 
