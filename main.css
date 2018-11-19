@@ -54,35 +54,6 @@ a {
     
 
 
-    /* body{
-    background-image: url("https://rainbowfilter.io/images/filters/david-bowie/banner.png?v=2");
-    background-size: 900px;
-    background-repeat: no-repeat;
-    }
-     */
-
-
-.landingBody {
-    /* background-image: url("https://rainbowfilter.io/images/filters/david-bowie/banner.png?v=2");
-    background-size: 900px;
-    background-repeat: no-repeat;
-     */
-
-
-     /* ADDED BG COLOR USED GRADIENT WE CAN REMOVE IF YOU WANT. - JD */
-     background-image: linear-gradient(to bottom right, pink ,purple );
-}
-
-/* I THOUGHT A ROW LOOK FOR THE NAVBARS LOOKED BETTER. AGAIN STYLE CHOICE WE CAN CHANGE IF NECESSARY. -JD */
-
-
-/* .navBars{
-
-
-
-
-
-} */
 
 
 .landingpage {
