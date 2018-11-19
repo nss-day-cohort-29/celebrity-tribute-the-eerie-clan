@@ -1,40 +1,194 @@
-li {
-    list-style-type: none;
-}
-#newsfeedHead {
+/* body {
+    background-image: url("https://rainbowfilter.io/images/filters/david-bowie/banner.png?v=2");
+    background-size: 900px;
+    background-repeat: no-repeat;
+    
+} */
+
+.landingpage {
     display: flex;
     justify-content: center;
-    border: 3px solid black;
+    background-image: url("https://rainbowfilter.io/images/filters/david-bowie/banner.png?v=2") ;
+    background-size: 800px;
+    background-repeat: no-repeat; 
+    width: 1000px;
+    height: 1000px;
+    padding-left: 100px;
+    margin-left: 50px;
+    background-origin: content-box;
+   
 }
 
-.newsfeed {
-    display: flex;
-    justify-content: flex-start;
-    flex-basis: 25%;
-    padding: 25px;
-    font-size: 20px;
+
+.david-bowie-tribute-summary-photo img {
+width: 500px;
+height: 700px;
+}
+
+
+article {
+display: flex;
+flex-direction: row-reverse;
+justify-content: flex-start;
+}
+
+.david-bowie-tribute-summary-info {
+display: flex;
+flex-direction: row;
+}
+
+.summaryinfo {
+flex-direction: column;
+margin: 20px;
+font-weight: bold;
+font-size: 16px;
+background-color: white;
+opacity: 20%;
+padding-left: 20px;
+
+}
+
+.summaryp, .summaryul {
+    align-self : center;
+}
+
+.summaryul {
+    list-style-type: none;
+    padding: 0px;
     
 }
 
+.summaryh1 {
+    font-size: 35px;
+    border-bottom: 3px solid red;
+    margin-top: 40px;
+    padding-top: 20px;
+    
+}
+
+li {
+list-style-type: none;
+}
+#newsfeedHead {
+display: flex;
+justify-content: center;
+border: 3px solid black;
+}
+
+.newsfeed {
+display: flex;
+justify-content: flex-start;
+flex-basis: 25%;
+padding: 25px;
+font-size: 20px;
+
+}
+
 .newsImg {
-    width: 200px;
-    height: 200px;
-    padding: 25px;
+width: 200px;
+height: 200px;
+padding: 25px;
 
 }
 
-#personal__header {
-    display: flex;
-    justify-content: center;
-    border: 3px solid black;
-    background-color: purple;
-    color: bisque;
+#personal__header--H1 {
+    text-shadow: 1px 1px #a3a3a3;
+    text-align: right;
+    font-size: 35px;
+    border-bottom: 3px solid red;
+    margin-top: 40px;
+    padding-top: 20px;
+    padding-right: 100px
 }
 
-.personal__info {
-    border: 15px solid green;
-    background-color: bisque;
-    align-content: center;
-    padding: 25px;
-    font-size: 20px;
+#personal__header--H2 {
+text-shadow: 1px 1px #a3a3a3;
+font-size: 25px;
+text-align: right;
+}
+
+.personal__container {
+display: flex;
+flex-direction: column;
+flex-basis: 48%;
+}
+
+.personal__info ul {
+display: flex;
+flex-direction: column;
+justify-content: start;
+border: 3px solid red;
+padding: 5px;
+font-size: 20px;    
+}
+
+.personal__family {
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+flex-basis: 30%;
+border: 3px solid red;
+padding: 25px;
+font-size: 20px;
+}
+
+.personal__family p {
+    border: 3px solid red; 
+}
+
+
+.bowie_Image1 {
+height: 50%;
+width: 50%;
+}
+
+.bowie_Image2 {
+height: 50%;
+width: 50%;
+}
+
+.bowie_Image3 {
+height: 50%;
+width: 50%;
+}
+
+.bowie_Career_H1 {
+
+text-shadow: 1px 1px #a3a3a3;
+text-align: right;
+font-size: 35px;
+border-bottom: 3px solid red;
+margin-top: 40px;
+padding-top: 20px;
+padding-right: 100px
+
+}
+
+.bowie_Career_Intro {
+
+text-align: center;
+margin: 20px 20px 50px 20px;
+
+}
+
+.bowie_Career_SkillList_Top{
+
+text-shadow: 1px 1px #a3a3a3;
+text-align: right;
+margin: 20px 20px 10px 20px;
+
+}
+
+.bowie_Career_SkillList{
+
+text-align: right;
+margin: 0px 40px 10px 20px;
+}
+
+.bowie_Career_WorkList_Top{
+
+text-shadow: 1px 1px #a3a3a3;
+text-align: right;
+margin: 20px 20px 10px 20px;
+
 }
